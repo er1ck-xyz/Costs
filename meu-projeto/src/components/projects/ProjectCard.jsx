@@ -13,7 +13,7 @@ export default function ProjectCard({
   const remove = (e) => {
     e.preventDefault();
     handleRemove(id);
-    alert("Projeto excluido com sucesso!");
+    alert("Projeto excluido com sucesso");
   };
   return (
     <div className={style.project_card}>
